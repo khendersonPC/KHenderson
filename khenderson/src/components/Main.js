@@ -8,13 +8,15 @@ import weatherImg from "./Images/weather.png";
 import invImg from "./Images/inventory.png"; 
 import jabsImg from "./Images/jabs.png"; 
 import me from "./Images/IMG_300.jpg"; 
+import ContactMe from "./ContactMe"
 
 function Main() {
     return(
-        <div className="main" >
+        <div className="main"id = "about" >
             <div>
-                <div className="container-fluid pr-7 ">
+                <div  className="container-fluid pr-7 ">
                     <br />
+                    <br/><br/>
                     <h1 style={{ textAlign: "center" }}>About</h1>
                     <hr style={{ width: "40%", marginLeft: "auto", marginRight: "auto", height: "10px" }} />
                     <br /><br />
@@ -88,7 +90,8 @@ function Main() {
                             </div>
 
                             <div className="row">
-                                <form>
+                                <ContactMe/>
+                                {/* <form>
                                     <br /><br />
                                     <div className="form-group">
                                         <label for="exampleInputEmail1">Email address</label>
@@ -99,7 +102,7 @@ function Main() {
                                         <label for="exampleFormControlTextarea1">Message</label>
                                         <input type="text" className="form-control" id="exampleFormControlTextarea1" placeholder="Message" />
                                     </div>
-                                </form>
+                                </form> */}
                             </div>
 
                             <div className="row" style={{ textAlign: "center" }}>

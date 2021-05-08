@@ -5,6 +5,7 @@ import Interact from "./components/pages/Interact";
 import Home from "./components/pages/Home";
 import Wrapper from "./components/Wrapper";
 
+
 function App() {
   return (
     <Router>
