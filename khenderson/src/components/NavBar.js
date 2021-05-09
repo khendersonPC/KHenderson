@@ -44,7 +44,7 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-                <Link to="/interact" spy={true} smooth={true} className={location.pathname==="/interact" ? "nav-link active" : "nav-link"} 
+                <Link to="/" spy={true} smooth={true} className={location.pathname==="/" ? "nav-link active" : "nav-link"} 
                 style={{fontFamily:'Verdana'}}>
                 Interact
                 </Link>    
