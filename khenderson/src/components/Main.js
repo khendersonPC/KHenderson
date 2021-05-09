@@ -14,11 +14,8 @@ import ContactMe from "./ContactMe"
 
 function Main() {
     return(
-        <div className="main"id = "about" >
-            <div>
+        <div className="main"id = "about" style={{ marginTop: "0em", paddingTop: "5em", paddingBottom: "5em" }} >
                 <div  className="container-fluid pr-7 ">
-                    <br />
-                    <br/><br/>
                     <h1 style={{ textAlign: "center" }}>About</h1>
                     <hr style={{ width: "40%", marginLeft: "auto", marginRight: "auto", height: "10px" }} />
                     <br /><br />
@@ -48,7 +45,7 @@ function Main() {
                         </div>
                     </div>
                 </div>
-            </div>
+            
 
             <div id="portfolio" style={{ marginTop: "8em", backgroundColor: "#F2F7F7", paddingTop: "5em", paddingBottom: "5em" }}>
                 <div className="container">
@@ -77,9 +74,9 @@ function Main() {
                 </div>
             </div>
 
-            <div id="contact">
+            <div id="contact" style={{ marginTop: "8em", paddingTop: "5em", paddingBottom: "5em" }}>
                 <div className="container-fluid">
-                    <br /><br />
+                    <br />
                     <h1 style={{ textAlign: "center" }}>Contact</h1>
                     <hr style={{ width: "40%", marginLeft: "auto", marginRight: "auto", height: "10px" }} />
                     <br />

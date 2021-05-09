@@ -16,7 +16,7 @@ function NavBar() {
             <li className="nav-item">
                 <Link to="about" spy={true} smooth={true} className={location.pathname==="/about" ? "nav-link active" : "nav-link"} 
                 
-                style={{fontFamily:'Verdana'}}>
+                style={{fontFamily:'Verdana', color:"white"}}>
             
                 About
                 </Link>
@@ -24,7 +24,7 @@ function NavBar() {
            
             <li className="nav-item">
                 <Link to="portfolio" spy={true} smooth={true} className={location.pathname==="about.html#portfolio" ? "nav-link active" : "nav-link"} 
-                style={{fontFamily:'Verdana'}}>
+                style={{fontFamily:'Verdana', color:"white"}}>
                 Portfolio
                 </Link> 
                     
@@ -32,20 +32,20 @@ function NavBar() {
 
             <li className="nav-item">
                 <Link to="contact" spy={true} smooth={true} className={location.pathname==="#contact" ? "nav-link active" : "nav-link"} 
-                style={{fontFamily:'Verdana'}}>
+                style={{fontFamily:'Verdana', color:"white"}}>
                 Contact
                 </Link>    
             </li>
             
             <li className="nav-item">
-            <a href={resume} target="_blank" rel="noopener noreferrer" download>
+            <a href={resume} style={{fontFamily:'Verdana', color:"white"}} target="_blank" rel="noopener noreferrer" download>
                 Resume
             </a>
             </li>
 
             <li className="nav-item">
                 <Link to="/" spy={true} smooth={true} className={location.pathname==="/" ? "nav-link active" : "nav-link"} 
-                style={{fontFamily:'Verdana'}}>
+                style={{fontFamily:'Verdana', color:"white"}}>
                 Interact
                 </Link>    
             </li>

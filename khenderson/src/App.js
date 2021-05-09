@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div>
         <Wrapper>
-       
         <Route exact path="/about" component={Home} />
+        {/* <Route exact path="/"/> */}
         </Wrapper>
       </div>
     </Router>
