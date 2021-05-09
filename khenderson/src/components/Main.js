@@ -7,6 +7,8 @@ import plannerImg from "./Images/dayPlanner.png";
 import weatherImg from "./Images/weather.png";
 import invImg from "./Images/inventory.png"; 
 import jabsImg from "./Images/jabs.png"; 
+import employImg from "./Images/employDir.png"; 
+import teamImg from "./Images/team.png"; 
 import me from "./Images/IMG_300.jpg"; 
 import ContactMe from "./ContactMe"
 
@@ -56,9 +58,10 @@ function Main() {
 
                     <div className="card-group">
                         <Card hrefDeployed= "https://khendersonpc.github.io/passwordGen/" imag={passImg} title="Password Generator" text="I wanted to learn how JS and html interact, as well as tackle the fun logic element to this project." hrefGit= "https://github.com/khendersonPC/passwordGen"/>
+                        <Card hrefDeployed= "https://github.com/khendersonPC/teamSummary" imag={teamImg} title="Build a Team" text="This is a Javascript file built using node and inquirer that allows a user to build a project team and and index.html file with descriptions of all team members." hrefGit= "https://github.com/khendersonPC/teamSummary"/>
 
-                        <Card hrefDeployed= "https://khendersonpc.github.io/programmingQuiz/" imag={quizImg} title="Interactive Quiz" text="To program this quiz site I learned how to create objects, store them to an array and use JSON." hrefGit= "https://github.com/khendersonPC/programmingQuiz"/>
-                        
+                        {/* <Card hrefDeployed= "https://khendersonpc.github.io/programmingQuiz/" imag={quizImg} title="Interactive Quiz" text="To program this quiz site I learned how to create objects, store them to an array and use JSON." hrefGit= "https://github.com/khendersonPC/programmingQuiz"/> */}
+                        {/* <Card hrefDeployed= "https://khendersonpc.github.io/employeeDirectory/" imag={employImg} title="Employee Directory" text="A simple app written using React. Fun with arrays and sorting." hrefGit= "https://github.com/khendersonPC/employeeDirectory"/> */}
                         <Card hrefDeployed= "https://khendersonpc.github.io/dayPlanner/" imag={plannerImg} title="Day Planner" text="Daily Planner utilizes JS to dynamically write the HTML/CSS. Local storage is also utilized." hrefGit= "https://github.com/khendersonPC/dayPlanner"/>
                     </div>    
                     <div className="card-group">
