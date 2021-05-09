@@ -10,6 +10,7 @@ var posXX = 0;
 // setup config variables and start the program
 function init() {
   canvas = document.getElementById('myCanvas');
+  canvas.addEventListener("click", on_click);
 
 /* Rresize the canvas to occupy the full page, 
    by getting the widow width and height and setting it to canvas*/
@@ -132,6 +133,9 @@ function move() {
 
 }
 
+function on_click(e){
+  window.location="https://khendersonpc.github.io/KHenderson"
+}
 
 class Rectangle {
   // you create new Rectangles by calling this as a function
