@@ -10,7 +10,7 @@ function App() {
     <HashRouter>
       <div>
         <Wrapper>
-        <Route exact path="/#/about" component={Home} />
+        <Route exact path="/about" component={Home} />
         
         </Wrapper>
       </div>
