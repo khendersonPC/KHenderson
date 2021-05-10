@@ -6,14 +6,15 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    
+    <HashRouter>
       <div>
         <Wrapper>
         <Route exact path="/about" component={Home} />
         
         </Wrapper>
       </div>
-    </Router>
+    </HashRouter>
 
   );
 }
