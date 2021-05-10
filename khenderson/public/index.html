@@ -16,6 +16,7 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="hide.css">
 
   <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -37,6 +38,7 @@
 <body>
   <!-- Optional JavaScript -->
   <script src="sketch.js"></script>
+  
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -48,14 +50,29 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <div id="root"></div>
-  <div>
+  <div id= "hideThis">
     <div class="header">
       <div onwheel="move(event)">
         <canvas id="myCanvas"></canvas>
       </div>
     </div>
   </div>
-
+  <script>
+    setTimeout(function() {
+      console.log("timer worked");
+      var rootEl = document.querySelector(".wrapper")
+      var canEl= document.getElementById('hideThis')
+      if(!rootEl.textContent){
+        canEl.style.display="block";
+        
+      }
+      else{
+        canEl.style.display="none";
+        console.log("there is wrapper text");
+      }
+}, 3000);
+      
+    </script>
 </body>
 
 </html>

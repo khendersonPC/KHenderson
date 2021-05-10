@@ -42,12 +42,16 @@ function NavBar() {
                 Resume
             </a>
             </li>
-
-            <li className="nav-item">
-                <Link to="/" spy={true} smooth={true} className={location.pathname==="/" ? "nav-link active" : "nav-link"} 
+            {/* <Link to="google.com"  className={location.pathname==="google.com" ? "nav-link active" : "nav-link"} 
                 style={{fontFamily:'Verdana', color:"white"}}>
                 Interact
-                </Link>    
+                </Link>     */}
+
+            <li className="nav-item">
+                <a href="https://khendersonpc.github.io/KHenderson/"  className={location.pathname==="https://khendersonpc.github.io/KHenderson/" ? "nav-link active" : "nav-link"} 
+                style={{fontFamily:'Verdana', color:"white"}}>
+                Interact
+                </a>
             </li>
         </ul>
     </nav>
