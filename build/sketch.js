@@ -134,7 +134,7 @@ function move() {
 }
 
 function on_click(e){
-  window.location="https://khendersonpc.github.io/KHenderson/about"
+  window.location="https://khendersonpc.github.io/KHenderson/#/about"
 }
 
 class Rectangle {
