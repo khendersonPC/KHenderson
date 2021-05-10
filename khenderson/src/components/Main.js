@@ -81,7 +81,7 @@ function Main() {
                     <hr style={{ width: "40%", marginLeft: "auto", marginRight: "auto", height: "10px" }} />
                     <br />
                     <h2 style={{ textAlign: "center" }}>Have a question or want to work together?</h2>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-sm-5 ">
                         </div>
 
@@ -89,7 +89,7 @@ function Main() {
                             <div className="row">
                             </div>
 
-                            <div className="row">
+                            <div className="row"> */}
                                 <ContactMe/>
                                 {/* <form>
                                     <br /><br />
@@ -103,17 +103,17 @@ function Main() {
                                         <input type="text" className="form-control" id="exampleFormControlTextarea1" placeholder="Message" />
                                     </div>
                                 </form> */}
-                            </div>
+                            {/* </div> */}
 
-                            <div className="row" style={{ textAlign: "center" }}>
+                            {/* <div className="row" style={{ textAlign: "center" }}>
                                 <button type="submit" className="btn btn-primary" style={{ backgroundColor: "#04174f" }}>Submit</button>
-                            </div>
-                        </div>
+                            </div> */}
+                        {/* </div> */}
 
-                        <div className="col-sm-4">
-                        </div>
+                        {/* <div className="col-sm-4">
+                        </div> */}
                         <br /><br />
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
