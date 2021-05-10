@@ -7,10 +7,10 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     
-    <HashRouter>
+    <HashRouter basename="/">
       <div>
         <Wrapper>
-        <Route exact path="/about" component={Home} />
+        <Route path="/about" component={Home} />
         
         </Wrapper>
       </div>
