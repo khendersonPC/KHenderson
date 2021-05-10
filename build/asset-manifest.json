@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/KHenderson/static/css/main.4e4ec32d.chunk.css",
+    "main.js": "/KHenderson/static/js/main.6b9aaf62.chunk.js",
+    "main.js.map": "/KHenderson/static/js/main.6b9aaf62.chunk.js.map",
+    "runtime-main.js": "/KHenderson/static/js/runtime-main.c6064f24.js",
+    "runtime-main.js.map": "/KHenderson/static/js/runtime-main.c6064f24.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/KHenderson/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.febc8036.chunk.js": "/KHenderson/static/js/2.febc8036.chunk.js",
+    "static/js/2.febc8036.chunk.js.map": "/KHenderson/static/js/2.febc8036.chunk.js.map",
+    "static/js/3.5e57728a.chunk.js": "/KHenderson/static/js/3.5e57728a.chunk.js",
+    "static/js/3.5e57728a.chunk.js.map": "/KHenderson/static/js/3.5e57728a.chunk.js.map",
+    "index.html": "/KHenderson/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/KHenderson/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.4e4ec32d.chunk.css.map": "/KHenderson/static/css/main.4e4ec32d.chunk.css.map",
+    "static/js/2.febc8036.chunk.js.LICENSE.txt": "/KHenderson/static/js/2.febc8036.chunk.js.LICENSE.txt",
+    "static/media/IMG_300.c52bad54.jpg": "/KHenderson/static/media/IMG_300.c52bad54.jpg",
+    "static/media/dayPlanner.b28eb514.png": "/KHenderson/static/media/dayPlanner.b28eb514.png",
+    "static/media/employDir.3b9aaf17.png": "/KHenderson/static/media/employDir.3b9aaf17.png",
+    "static/media/inventory.a163ad05.png": "/KHenderson/static/media/inventory.a163ad05.png",
+    "static/media/jabs.22a4ac01.png": "/KHenderson/static/media/jabs.22a4ac01.png",
+    "static/media/password.4106c90c.png": "/KHenderson/static/media/password.4106c90c.png",
+    "static/media/quiz.f391aad0.png": "/KHenderson/static/media/quiz.f391aad0.png",
+    "static/media/resume.fce8a1f2.pdf": "/KHenderson/static/media/resume.fce8a1f2.pdf",
+    "static/media/team.086e9f52.png": "/KHenderson/static/media/team.086e9f52.png",
+    "static/media/weather.a87ffa12.png": "/KHenderson/static/media/weather.a87ffa12.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6064f24.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.febc8036.chunk.js",
+    "static/css/main.4e4ec32d.chunk.css",
+    "static/js/main.6b9aaf62.chunk.js"
+  ]
+}
