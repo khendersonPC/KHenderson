@@ -1,6 +1,6 @@
 console.log(window.location.hash);
-if(window.location.hash){
-  return;
+if(window.location.hash.length>2){
+  throw new Error("Not on main page");
 }
 let h=0;
 let w =0;
