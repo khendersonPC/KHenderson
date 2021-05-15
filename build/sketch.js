@@ -1,3 +1,4 @@
+console.log(window.location.hash);
 
 let h=0;
 let w =0;
