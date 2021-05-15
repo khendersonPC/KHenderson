@@ -1,5 +1,7 @@
 console.log(window.location.hash);
-
+if(window.location.hash){
+  return;
+}
 let h=0;
 let w =0;
 console.log(h);
